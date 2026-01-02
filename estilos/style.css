@@ -30,11 +30,27 @@ main{
     height: 627px;
     width: 311px;
 }
-iframe#app{
+#app{
     position: relative;
     right: 107px;
     top: 71px;
 
     width: 490px;
     height: 428px;
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 6px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.687);
+    box-sizing: border-box;
+}
+section#redes-sociais{
+    text-align: right;
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.664);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.632);
+    transition: transform 0.4s;
 }
